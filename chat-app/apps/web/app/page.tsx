@@ -20,9 +20,7 @@ export default function Home() {
           justifyContent: "center",
           flexDirection: "column",
         }}>
-          <TextInput onChange={() => {
-            alert("hi");
-          }} size="small" placeholder="Room name"></TextInput>
+          <TextInput size="small" placeholder="Room name"></TextInput>
          <button onClick={() => {
           router.push("/chat/123")
          }}>Join room</button>
